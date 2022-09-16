@@ -5,12 +5,28 @@
     justify-content: space-between;
   
 }
+.burgerAndTitleDiv{
+    display: flex;
+
+}
 .title{
     color: black;
     font-family: 'Russo One', sans-serif;
     font-size: calc(20px + 2vw);
     cursor: pointer;
     margin-left: 5vw;
+}
+.burgerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.burger{
+    display: none;   
+}
+.burgerText{
+    display: none;
 }
 .form{
     display: flex;
@@ -58,3 +74,37 @@
     text-decoration: underline solid black;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 990px) {
+    .li {
+     display: none;
+    }
+    .burger{
+        display: inline;
+        width: 30px;
+        margin-left: 2vw;
+        cursor: pointer;
+    }
+    .burgerText{
+        display: inline;
+        margin-left: 2vw;
+        font-size: 10px;
+        font-family: 'Lato', sans-serif;
+    }
+    .form{
+        margin: 0 auto;
+        width: 98vw;
+        position: absolute;
+        top: 13vh;
+        margin-left: 1vw;
+    }
+    .input{
+        border: 0px;
+        height: 100%;
+        width: 95vw;
+    }
+    .serarchIcon{
+       margin-right: 2vw;
+    }
+  }
