@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    margin-left: 5vw;
+    gap: 2vw;
+}
+.li:hover{
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 990px) {
+    .container{
+        display: none;
+    }
+}
