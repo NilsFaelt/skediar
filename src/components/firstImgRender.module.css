@@ -1,0 +1,26 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 1vw;
+    width: 89vw;
+}
+.img{
+  width: calc(100% / 2);
+}
+
+
+
+
+@media only screen and (max-width: 990px) {
+.container{
+    width: 98vw;
+    flex-direction: column;
+    }
+.img{
+    width: 100%;
+}
+}

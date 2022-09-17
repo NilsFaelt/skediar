@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import SecondNav from "./components/SecondNav";
 import FirstImg from "./components/FirstImg";
 import KontaktaOss from "./components/KontaktaOss";
+import FirstImgRender from "./components/FirstImgRender";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <SecondNav />
       <FirstImg />
+      <FirstImgRender />
       <KontaktaOss />
     </div>
   );
