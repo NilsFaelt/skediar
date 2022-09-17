@@ -1,0 +1,16 @@
+.container{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;justify-content: center;
+    width: 90vw;
+    height: 70vh;
+}
+.firstDiv{
+    width: 40%;
+}
+.secondDiv{
+    width: 40%;
+}
+.thirdDiv{
+    width: 20%;
+}

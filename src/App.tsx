@@ -7,6 +7,7 @@ import KontaktaOss from "./components/KontaktaOss";
 import FirstImgRender from "./components/FirstImgRender";
 import ImgCarousel from "./ImgCarousel";
 import SecondImgRender from "./components/SecondImgRender";
+import ThirdImgRender from "./components/ThirdImgRender";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
         ditt Skeidar-hjem med oss! <br /> Ser du noe du liker? Klikk på bildet
         for å se mer om produktene.
       </p>
+      <ThirdImgRender />
+      <div className='seMerDiv'>
+        <p>SE MER</p>
+      </div>
       <KontaktaOss />
     </div>
   );

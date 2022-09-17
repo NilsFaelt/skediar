@@ -24,3 +24,18 @@
   margin-bottom: 3vh;
 }
 
+.seMerDiv{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 110px;
+  height: 50px;
+  cursor: pointer;
+}
+.seMerDiv:hover{
+  transition: 0.4s;
+  background-color: rgb(227, 227, 227);
+}
