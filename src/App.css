@@ -3,14 +3,24 @@
   padding: 0;
 }
 .textOne{
-  font-size: 20px;
-  margin-bottom: 2vh;
-  margin-top: 2vh;
+  font-size: 25px;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
   text-align: center;}
 .textTwo{
-  font-size: 20px;
-  margin-bottom: 2vh;
-  margin-top: 2vh;
+  font-size: 25px;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
   text-align: center;}
-
+.middleTitle{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+.middleText{
+  font-size: 15px;
+  text-align: center; 
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 3vh;
+}
 

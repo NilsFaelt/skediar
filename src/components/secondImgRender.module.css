@@ -1,0 +1,31 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+    width: 88vw;
+}
+.img{
+    width: calc(100% / 4);
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 990px) {
+    .container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vw;
+        width: 98vw;
+    }
+    .img{
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
