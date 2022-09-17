@@ -8,6 +8,7 @@ import FirstImgRender from "./components/FirstImgRender";
 import ImgCarousel from "./ImgCarousel";
 import SecondImgRender from "./components/SecondImgRender";
 import ThirdImgRender from "./components/ThirdImgRender";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <p>SE MER</p>
       </div>
       <KontaktaOss />
+      <Footer />
     </div>
   );
 }
