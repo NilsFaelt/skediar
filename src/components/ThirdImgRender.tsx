@@ -23,6 +23,17 @@ const ThirdImgRender = () => {
         <img className={Styles.twoImgs} src={sixth} alt='' />
         <img className={Styles.twoImgs} src={seventh} alt='' />
       </div>
+      <div className={Styles.mobileSizeImgDiv}>
+        {" "}
+        <img className={Styles.imgMobile} src={first} alt='' />
+        <img className={Styles.imgMobile} src={scond} alt='' />
+        <img className={Styles.imgMobile} src={third} alt='' />
+        <img className={Styles.imgMobile} src={fourth} alt='' />
+        <img className={Styles.imgMobile} src={fifth} alt='' />
+        <img className={Styles.imgMobile} src={sixth} alt='' />
+        <img className={Styles.imgMobile} src={seventh} alt='' />
+        <img className={Styles.imgMobile} src={first} alt='' />
+      </div>
     </div>
   );
 };
