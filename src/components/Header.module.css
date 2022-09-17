@@ -36,7 +36,7 @@
     width: 28vw;
     margin-top: 0.3vh;
     box-shadow: 0px 0.5px 0px;
-    margin-left: 9vw;
+    margin-left: 10vw;
 }
 .form:focus{
     border: 1px solid blue ;

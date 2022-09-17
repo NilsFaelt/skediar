@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+}
+img{
+    width: calc(100% / 3);
+    cursor: pointer;
+}
+.img:hover{
+    transition: 0.1s;
+    width:calc(101% / 3) ;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .carousel{
+        width: 98vw;
+    }
+}
