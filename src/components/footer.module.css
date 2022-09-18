@@ -26,10 +26,64 @@
     color: white;
     margin-left: 3.5vw;
 }
+.divLower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+.lowerDivInnerDivLeft{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-left: 5vw;
+}
+.lowerDivTitle{
+    font-family: 'Russo One', sans-serif;
+}
+.lowerDivText{
+    font-family: 'Lato', sans-serif;
+    font-size: calc(12px + 0.1vw);
+}
+.lowerDivInnerDivRight{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 10vh;
+    margin-right: 10vw;
+    color: white;
+}
+.bliMedlemDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 120px;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size:larger;
+
+}
+.middleDivInnerDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
 .middleDivInnerDivIMg{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  
+}
+.text{
+    font-family: 'Lato', sans-serif;
+    font-size: calc(12px + 0.1vw);
+}
+.text:hover{
+    text-decoration: underline 1px solid white;
+    cursor: pointer;
 }
 .img{
     margin-right: 6vw;
