@@ -11,6 +11,12 @@ import ThirdImgRender from "./components/ThirdImgRender";
 import Footer from "./components/Footer";
 
 function App() {
+  const toTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className='App'>
       <TopHeader />
@@ -33,7 +39,7 @@ function App() {
         <p>SE MER</p>
       </div>
       <KontaktaOss />
-      <Footer />
+      <Footer toTop={toTop} />
     </div>
   );
 }

@@ -2,12 +2,18 @@ import Styles from "./footer.module.css";
 import footerImg from "../assets/img/footerImg.png";
 import { ChevronUpIcon } from "@heroicons/react/24/outline";
 
-const Footer = () => {
+interface Props {
+  toTop: () => void;
+}
+
+const Footer: React.FC<Props> = ({ toTop }) => {
   return (
     <footer className={Styles.container}>
       <div className={Styles.divUpper}>
-        <ChevronUpIcon className={Styles.upIcon} />
-        <p className={Styles.clickableText}>TIL TOPPEN</p>
+        <ChevronUpIcon onClick={toTop} className={Styles.upIcon} />
+        <p onClick={toTop} className={Styles.clickableText}>
+          TIL TOPPEN
+        </p>
       </div>
       <div className={Styles.divMiddle}>
         <div className={Styles.middleDivInnerDiv}>
