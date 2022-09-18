@@ -100,7 +100,21 @@
 .hr{
     display: none;
 }
-
+.NavDiv{
+    display: none;
+    width: 85%;
+    
+}
+.plusIcon{
+    width: 30px;
+}
+.innerNavDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5vh;
+}
 @media only screen and (max-width: 990px) {
     .divLower{
         display: flex;
@@ -126,7 +140,7 @@
         margin-left: 10vw;
     }
     .img{
-
+        width: 150px;
        align-self: center;
      
     }
@@ -140,5 +154,21 @@
         margin: 0 auto;
         margin-top:5vh ;
         margin-bottom:5vh ;
+    }
+    .NavDiv{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        
+    }
+    .divMiddle{
+        flex-direction: column;
+    }
+    .hrMobile{
+        width: 90vw;
+        margin: 0 auto;
+        margin-bottom: 3vh;
     }
 }

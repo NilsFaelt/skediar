@@ -1,6 +1,6 @@
 import Styles from "./footer.module.css";
 import footerImg from "../assets/img/footerImg.png";
-import { ChevronUpIcon } from "@heroicons/react/24/outline";
+import { ChevronUpIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 interface Props {
   toTop: () => void;
@@ -44,6 +44,28 @@ const Footer: React.FC<Props> = ({ toTop }) => {
           <p className={Styles.text}>
             #skeidar <br /> Del ditt Skeidar hjem
           </p>
+        </div>
+        <div className={Styles.NavDiv}>
+          <div className={Styles.innerNavDiv}>
+            <p>Akuelt</p>
+            <PlusSmallIcon className={Styles.plusIcon} />
+          </div>
+          <hr className={Styles.hrMobile} />
+          <div className={Styles.innerNavDiv}>
+            <p>Om skeidar</p>
+            <PlusSmallIcon className={Styles.plusIcon} />
+          </div>
+          <hr className={Styles.hrMobile} />
+          <div className={Styles.innerNavDiv}>
+            <p>KundService</p>
+            <PlusSmallIcon className={Styles.plusIcon} />
+          </div>
+          <hr className={Styles.hrMobile} />
+          <div className={Styles.innerNavDiv}>
+            <p>Følg oss</p>
+            <PlusSmallIcon className={Styles.plusIcon} />
+          </div>
+          <hr className={Styles.hrMobile} />
         </div>
         <div className={Styles.middleDivInnerDivIMg}>
           <img className={Styles.img} src={footerImg} alt='' />
