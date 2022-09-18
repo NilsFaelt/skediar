@@ -97,12 +97,48 @@
     text-decoration: underline 1px solid;
     cursor: pointer;
 }
+.hr{
+    display: none;
+}
 
 @media only screen and (max-width: 990px) {
-    .container{
-        
+    .divLower{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 5vh;
+    }
+    .lowerDivInnerDivLeft{
+        align-self: center;
+        text-align: center;
+    }
+    .bliMedlemDiv{
+        align-self: center;
+    }
+    .lowerDivText{
+        margin-left: 5vw;
     }
 
-  
+    .middleDivInnerDiv{
+        display: none;
+    }
+    .middleDivInnerDivIMg{
+        margin-left: 10vw;
+    }
+    .img{
 
+       align-self: center;
+     
+    }
+    .divMiddle{
+        margin-left: 0vw;
+     
+    }
+    .hr{
+        display: inline;
+        width: 95vw;
+        margin: 0 auto;
+        margin-top:5vh ;
+        margin-bottom:5vh ;
+    }
 }

@@ -49,6 +49,7 @@ const Footer: React.FC<Props> = ({ toTop }) => {
           <img className={Styles.img} src={footerImg} alt='' />
         </div>
       </div>
+      <hr className={Styles.hr} />
       <div className={Styles.divLower}>
         <div className={Styles.lowerDivInnerDivLeft}>
           <h3 className={Styles.lowerDivTitle}>S K E I D A R</h3>
