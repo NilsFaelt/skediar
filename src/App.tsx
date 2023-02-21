@@ -9,6 +9,7 @@ import ImgCarousel from "./ImgCarousel";
 import SecondImgRender from "./components/SecondImgRender";
 import ThirdImgRender from "./components/ThirdImgRender";
 import Footer from "./components/Footer";
+import IframeDiv from "./components/IframeDiv";
 
 function App() {
   const toTop = () => {
@@ -27,6 +28,7 @@ function App() {
       <p className='textOne'>Populært akkurat nå</p>
       <ImgCarousel />
       <p className='textTwo'>Interiørfavoritter</p>
+      <IframeDiv />
       <SecondImgRender />
       <h3 className='middleTitle'>@skeidarnorge | #skeidar</h3>
       <p className='middleText'>
