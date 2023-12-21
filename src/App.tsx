@@ -10,8 +10,11 @@ import SecondImgRender from "./components/SecondImgRender";
 import ThirdImgRender from "./components/ThirdImgRender";
 import Footer from "./components/Footer";
 import IframeDiv from "./components/IframeDiv";
+import PopUp from "./components/PopUp";
+import { useState } from "react";
 
 function App() {
+  const [tooglePopUp, setTooglePopUp] = useState(true);
   const toTop = () => {
     window.scrollTo({
       top: 0,
@@ -20,6 +23,7 @@ function App() {
   };
   return (
     <div className='App'>
+      {tooglePopUp && <PopUp setTooglePopUp={setTooglePopUp} />}
       <TopHeader />
       <Header />
       <SecondNav />
